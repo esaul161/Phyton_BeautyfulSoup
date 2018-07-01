@@ -1,0 +1,28 @@
+{% if house %}
+{{house}}
+    <ul>
+   
+        <li>{{ house.id }}
+          <br>{{house.pub_date}}
+          <br>{{house.superficie}}
+          <br>{{house.construccion}}
+          <br>{{house.recamaras}}
+        </li>
+    </ul>
+{% else %}
+    <p>Propiedad no encontrada.</p>
+{% endif %}
+{% if direccion %}
+    <ul>
+   
+        <li>{{ direccion.calle }}
+          <br>{{direccion.numero}}
+          <br>{{direccion.colonia}}
+          <br>{{direccion.codigopostal}}
+          <br>{{direccion.ciudad}}
+          <br>{{direccion.estado}}
+        </li>
+    </ul>
+{% else %}
+    <p>Dirección No Disponible.</p>
+{% endif %}
