@@ -1,6 +1,6 @@
 Requerimientos:
   Python 2.7.15
-  Django 1.9
+  Django 1.11.13
   
  Procedimiento:
     Instalación:
